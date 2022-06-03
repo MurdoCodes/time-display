@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1abc7822bd9f28e9a62986817bf04f76",
+    "content-hash": "dc16d1c5da2091326b567650317f765a",
     "packages": [
+        {
+            "name": "borisuu/laravel-telnet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/borisuu/laravel-telnet.git",
+                "reference": "928cefb8c0973afae54633c97986ab5b5d21447e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/borisuu/laravel-telnet/zipball/928cefb8c0973afae54633c97986ab5b5d21447e",
+                "reference": "928cefb8c0973afae54633c97986ab5b5d21447e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Borisuu\\Telnet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Boris Rizov",
+                    "email": "boris.risov@gmail.com"
+                }
+            ],
+            "description": "A client for writing/reading commands to a host over telnet.",
+            "support": {
+                "source": "https://github.com/borisuu/laravel-telnet/tree/master"
+            },
+            "time": "2020-10-16T22:24:20+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.9.3",
@@ -7760,7 +7800,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "borisuu/laravel-telnet": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
